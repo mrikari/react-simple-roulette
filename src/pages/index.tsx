@@ -6,13 +6,15 @@ const pageStyles: React.CSSProperties = {
   backgroundColor: "#282c34",
   color: "white",
   margin: 0,
-  padding: 96,
+  padding: "25px",
   fontFamily:
     "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
   display: "flex",
   flexDirection: "column",
   gap: "0.5rem",
   alignItems: "center",
+  borderRadius: "6px",
+  boxShadow: "#222222 0px 2px 3px 1px",
 };
 
 const buttonStyles = {
